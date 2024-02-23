@@ -16,7 +16,7 @@ if (numper>300){
 }else {
     total=numper*95;
 }
-        System.out.println("El total es: "+total);
+        System.out.println("El costo total es: "+total);
 
     }
 }
