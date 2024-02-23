@@ -5,6 +5,7 @@ public class Eje2_1 {
         int a;
         int b;
         int s;
+        System.out.println("Suma de dos numeros");
         Scanner sc=new Scanner(System.in);
         System.out.println("Ingrese un numero:");
         a = sc.nextInt();
