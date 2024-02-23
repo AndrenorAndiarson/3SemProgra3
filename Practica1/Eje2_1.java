@@ -1,3 +1,5 @@
+package Practica1;
+
 import java.util.Scanner;
 
 public class Eje2_1 {
