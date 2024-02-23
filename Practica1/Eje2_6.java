@@ -14,13 +14,9 @@ public class Eje2_6 {
         System.out.println("Ingrese la diagonal:");
         hipo= sc.nextInt();
         cateto= (float) Math.sqrt(Math.pow(hipo,2)-Math.pow(radio,2));
-at=2*(radio*cateto)/2;
-ac= (float) (pi*Math.pow(radio,2)/2);
-are=at+ac;
+        at=2*(radio*cateto)/2;
+        ac= (float) (pi*Math.pow(radio,2)/2);
+        are=at+ac;
         System.out.println("El area total de la gota es: "+ are);
-
-
-
     }
-
 }
