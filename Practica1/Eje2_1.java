@@ -1,7 +1,5 @@
 package Practica1;
-
-import java.util.Scanner;
-
+import java.util.*;
 public class Eje2_1 {
     public static void main(String[] args) {
         int a;
