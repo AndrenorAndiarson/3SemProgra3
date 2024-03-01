@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Eje4_2 {
     public static void main(String[] args) {
-        System.out.println("SUMA CICLO FOR");
+        System.out.println("SUMA CICLO DO WHILE");
         double sum,cont;
         sum=0;
         cont=1;

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Eje4_1 {
     public static void main(String[] args) {
-        System.out.println("SUMA DE 10 VALORES");
+        System.out.println("SUMA DE 10 VALORES WHILE");
         Scanner sc=new Scanner(System.in);
         int cont;
      double valsum,suma;
