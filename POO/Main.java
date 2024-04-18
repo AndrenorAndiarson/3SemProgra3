@@ -35,18 +35,18 @@ public class Main {
                     }
                     System.out.println("Ingrese el nombre");
                     String Nombre = sc2.nextLine();
-                    System.out.println("Ingrese primer apellido");
+                    System.out.println("Ingrese primer apellido:");
                     String Apel1 = sc2.nextLine();
-                    System.out.println("Ingresa el segundo ");
+                    System.out.println("Ingresa el segundo apellido: ");
                     String Apel2 = sc2.nextLine();
-                    System.out.println("Ingrese la edad");
+                    System.out.println("Ingrese la edad: ");
                     int Edad = sc.nextInt();
                     Persona p = new Persona(ci,Nombre,Apel1,Apel2,Edad);
                     lista.add(p);
                     VERDAD = false;
                     break;
                 case 2:
-                    System.out.println("ingrese la id del usuario que desea buscar");
+                    System.out.println("Ingrese la ci del la persona a buscar: ");
                     ci = sc.nextInt();
                     for (Persona persona: lista){
                         if (ci == persona.getCi()){
@@ -60,7 +60,7 @@ public class Main {
                     VERDAD = false;
                     break;
                 case 3:
-                    System.out.println("Ingrese la id de la persona a eliminar");
+                    System.out.println("Ingrese la ci de la persona a eliminar");
                     ELIMINAR = sc.nextInt();
                     int ELIMINADO = ELIMINAR;
                     lista.removeIf(persona -> persona.getCi() == ELIMINADO);
