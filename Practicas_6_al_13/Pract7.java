@@ -5,7 +5,9 @@ import java.util.Queue;
 
 public class Pract7 {
     public static void main(String[] args) {
-
+//Crear una cola y agregar los elementos "A", "B", "C", "D" y "E".
+// Luego, vaciar la cola y agregar los elementos "F", "G", "H",
+// "I" y "J". Finalmente, imprimir los elementos de la cola. //
         Queue<String> cola=new LinkedList<>();
         cola.offer("A");
         cola.offer("B");
