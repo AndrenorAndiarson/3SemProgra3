@@ -19,13 +19,13 @@ public class Pract11 {
         cola.add(8);
         cola.add(9);
         cola.add(10);
-        int impares;
+        int impares=0;
         for (int i = 1; i <=cola.size(); i += 2) {
-            imp=cola.add(i);
+            System.out.println(i);
+            impares=impares+i;
         }
-
-        System.out.println("cola");
-        System.out.println(cola);
+        System.out.println("SUMA:");
+        System.out.println(impares);
             }
         }
 
