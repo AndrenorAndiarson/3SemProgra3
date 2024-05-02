@@ -13,6 +13,7 @@ public class Pract33 {
         pila.push(new Pract33_Estudiante("Yisus",5.5));
         pila.push(new Pract33_Estudiante("Lili",1.5));
         pila.push(new Pract33_Estudiante("Brasil",4.0));
+        pila.push(new Pract33_Estudiante("Big Show",10.0));
 Stack<Pract33_Estudiante> prom=new Stack<>();
 for (Pract33_Estudiante i:pila){
     if (i.getPuntos()>5.0){
