@@ -1,5 +1,6 @@
 package Practica14_al_33;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
@@ -7,20 +8,20 @@ import java.util.Stack;
 public class Pract26 {
     public static void main(String[] args) {
         //Crear una lista de objetos "Animal" y contar cuántos animales de cada especie hay en la lista.
-        Stack<Pract26_Animal> pila=new Stack<>();
-        pila.push(new Pract26_Animal("gato","felino"));
-        pila.push(new Pract26_Animal("leon","felino"));
-        pila.push(new Pract26_Animal("perro","canido"));
-        pila.push(new Pract26_Animal("lobo","canido"));
-        pila.push(new Pract26_Animal("nemo","pez"));
-        pila.push(new Pract26_Animal("bagre","pez"));
-        pila.push(new Pract26_Animal("tiburoncin","pez"));
-        pila.push(new Pract26_Animal("mantis","insecto"));
-        pila.push(new Pract26_Animal("gusano","insecto"));
-        System.out.println(pila);
+        ArrayList<Pract26_Animal> lista=new ArrayList<>();
+        lista.add(new Pract26_Animal("gato","felino"));
+        lista.add(new Pract26_Animal("leon","felino"));
+        lista.add(new Pract26_Animal("perro","canido"));
+        lista.add(new Pract26_Animal("lobo","canido"));
+        lista.add(new Pract26_Animal("nemo","pez"));
+        lista.add(new Pract26_Animal("bagre","pez"));
+        lista.add(new Pract26_Animal("tiburoncin","pez"));
+        lista.add(new Pract26_Animal("mantis","insecto"));
+        lista.add(new Pract26_Animal("gusano","insecto"));
+        System.out.println(lista);
 
         Map<String, Integer> conteoAnimales = new HashMap<>();
-        for (Pract26_Animal animal : pila) {
+        for (Pract26_Animal animal : lista) {
             String especie = animal.getEspecie();
             conteoAnimales.put(especie, conteoAnimales.getOrDefault(especie, 0) + 1);
         }
